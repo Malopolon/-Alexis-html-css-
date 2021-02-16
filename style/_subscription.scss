@@ -1,0 +1,45 @@
+@import'_colors';
+
+
+#subscription {
+    height: 445px;
+    background-color: #ffffff;
+    padding-top: 150px;
+    box-sizing: border-box;
+}
+
+.subcription_form {
+    font-family: $primary_font;
+
+    input {
+        margin: 0;
+        border: 2px solid #efefef;
+        background-color: #f7f7f7;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        height: 50px;
+        width: 300px;
+        padding-left: 30px;
+        box-sizing: border-box;
+        margin-right: -4px;
+    }
+
+    button {
+        background-color: $primary_red;
+        margin: 0;
+        border: none;
+        height: 50px;
+        width: 180px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        cursor: pointer;
+    }
+
+    button:active {
+        background-color: $primary_orange;
+    }
+}
+

@@ -1,0 +1,99 @@
+@import'_colors';
+
+footer {
+    background-color: #3f4049;
+    font-family: $primary_font;
+}
+
+.footer_wrapper_flex {
+    display: flex;
+    justify-content: flex-start;
+
+        a {
+            width: 25%;
+        }
+        div {
+            width: 25%;
+            box-sizing: border-box;
+            text-align: left; 
+            padding: 0 2rem;  
+
+                h3 {
+                    margin-top: 3rem;
+                margin-bottom: 2rem;
+                }
+        }
+
+        .footer_logo {
+            height: 225px;
+            background: url(../img/footer/Alexis.png) center center no-repeat;
+            border-bottom: 3px solid $primary_red;
+            color: transparent;
+        }
+
+        .footer_adress_line1 {
+            border-bottom: 3px solid $primary_green;
+
+            h3 {
+                color: $primary_green;
+            }
+            p {
+                color: #fef4f2;
+            }
+        }
+
+        .footer_adress_line2 {
+            border-bottom: 3px solid $primary_purpul;
+
+            h3 {
+                color: $primary_purpul;
+            }
+            p {
+                color: #fef4f2;
+            }
+        }
+
+        .footer_social_links {
+            padding: 0;
+            border-bottom: 3px solid $primary_orange;
+
+                h3 {
+                    color: $primary_orange;
+                    margin-left: 2rem;
+                }
+
+                .wrapper_social_links {
+                    display: flex;
+                    width: 100%;
+
+                        a {
+                            width: 25%;
+                            cursor: pointer;
+                            height: 30px;
+                        }
+
+                        .footer_facebook_link,
+                        .footer_twitter_link,
+                        .footer_instagram_link,
+                        .footer_googleplus_link{
+                            fill: white;
+                        }
+
+                        .footer_facebook_link:hover {
+                            fill: blue;
+                        }
+                        .footer_twitter_link:hover {
+                            fill: #00E3E5;
+                        }
+                        
+                        .footer_instagram_link:hover {
+                            fill: salmon;
+                        }
+                        
+                        .footer_googleplus_link:hover {
+                            fill: crimson;
+                        }
+                }
+                
+        }
+}

@@ -1,0 +1,99 @@
+@import'_colors';
+
+#why_select_us {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    height: 1050px;
+    padding-top: 150px; 
+    font-family: $primary_font;
+}
+
+.select_us_wrapper_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.select_us_item {
+    width: 30%;
+    margin-bottom: 2.5rem;
+        h4{
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 1.1rem;
+        }
+        .select_us_item_icon{
+            content: ' ';
+            display: inline-block;
+            background: url(../img/main/select_us/business_growth.png)  center center no-repeat;
+            width: 50px;
+            height: 50px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        p {
+            margin-top: 1rem;
+            color: $primary_font_color;
+        }
+}
+
+.unlimited_revisions {
+    .select_us_item_icon {
+        background: url(../img/main/select_us/unlimited_revisions.png)  center center no-repeat;
+    }
+}
+
+.ulimate_perfection {
+    .select_us_item_icon {
+        background: url(../img/main/select_us/ulimate_perfection.png)  center center no-repeat;
+    }
+}
+
+.avard_wining_company {
+    .select_us_item_icon {
+        height: 55px;
+        background: url(../img/main/select_us/avard_wining_company.png)  center center no-repeat;
+    }
+}
+
+.strict_deadline {
+    .select_us_item_icon {
+        background: url(../img/main/select_us/strict_deadline.png)  center center no-repeat;
+    }
+}
+
+.smart_experience {
+    .select_us_item_icon {
+        width: 53px;
+        background: url(../img/main/select_us/smart_experience.png)  center center no-repeat;
+    }
+}
+
+.select_us_footer {
+    h3{
+        font-size: 1.5rem;
+        font-weight: 500;
+        display: inline-block;
+        margin-right: 1rem;
+    }
+    button {
+        display: inline-block;
+        background-color: $primary_red;
+        width: 180px;
+        height: 50px;
+        border-radius: 25px;
+        color: white;
+        border: none;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 2px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    button:active {
+        background-color: $primary_orange;
+    }
+}
